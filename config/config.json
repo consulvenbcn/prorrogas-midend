@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "testconsulvenbcn",
+    "password": "Sadmin4MYSQLCDMON*2017",
+    "database": "testconsulvenbcn",
+    "host": "consuladobarcelona.gob.ve",
+    "dialect": "mysql",
+    "pool": { "max": "500", "idle": "10000" }
+  },
+  "test": {
+    "username": "manager",
+    "password": "Sadmin4TRAMCONSULVENBCN*2017",
+    "database": "tramconsulvenbcn",
+    "host": "consuladobarcelona.gob.ve",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "manager",
+    "password": "Sadmin4TRAMCONSULVENBCN*2017",
+    "database": "tramconsulvenbcn",
+    "host": "consuladobarcelona.gob.ve",
+    "dialect": "mysql"
+  }
+}
